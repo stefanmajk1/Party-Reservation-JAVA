@@ -1,0 +1,97 @@
+@charset "ISO-8859-1";
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: rgb(88,184,255);
+	
+}
+.purpl{
+    display:block;
+    width:100%;
+    margin-bottom:10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    
+    background: #48426D;
+    color:white;
+    border:none;
+}
+.pozicija{
+	
+	 background: inherit;
+	 border:solid 1px;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, .15);  
+ backdrop-filter: blur(10px);
+}
+
+.futer{
+	
+    position: fixed;
+    height: 50px;
+    
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+
+}
+.navbar-light .navbar-brand {
+    color: #02240b;
+    transition: 0.5s;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #000802;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #02240b;
+    transition: 0.5s;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #000802;
+}
+.navbar{
+	
+	transition: 0.5s;
+	opacity: 0.8;
+
+}
+.navbar:hover{
+	opacity: 1;
+}
+.loginError{
+	background-color:red;
+}
+a{
+	text-decoration:none;
+}
+.kartica{
+	
+	border-radius:25px;
+	font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    
+    
+}
+
+.ag1{
+	border-radius:25px;
+	font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+	background-color: rgba(255, 255, 255, .15);  
+ backdrop-filter: blur(10px); background: rgb(188,226,255);
+}
+.podatci{
+	background-color: rgba(255, 255, 255, .15);  
+ backdrop-filter: blur(10px); background: rgb(188,226,255); 
+	 border-radius:25px;
+    
+}
+.profilbox{
+	background-color: rgba(255, 255, 255, .15);  
+ backdrop-filter: blur(10px); background: rgb(188,226,255); 
+	 border-radius:25px;
+}
